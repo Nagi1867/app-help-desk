@@ -5,5 +5,4 @@
     header('Location: index.php?login=erro2');
   }
 
-  echo $_SESSION['autenticado'];
 ?>
