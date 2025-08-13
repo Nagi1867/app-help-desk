@@ -2,10 +2,10 @@
 
 <?php
   session_start();
-  
+
   $chamados = array();
 
-  $arquivo = fopen('arquivo.hd', 'r');
+  $arquivo = fopen('../../app-help-desk/arquivo.hd', 'r');
 
   while(!feof($arquivo)) { //testa pelo fim de um arquivo
     //linhas
